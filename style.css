@@ -1,0 +1,224 @@
+/*
+Theme Name: Seroba Kernel 
+Version: 1.1
+Author: Reynolds Digital
+Author URI: http://www.reynoldsdigital.com/
+*/
+
+/************** RESET http://meyerweb.com/eric/tools/css/reset/ ****************/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+address,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+blockquote, q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+
+/************** STRUCTURE ****************/
+body{font-family: Helvetica, Arial, sans-serif;font-size:13px;line-height:16px;text-rendering: optimizeLegibility;color: #000;}
+body.search{width:100%;}
+#wrap{max-width:885px;margin:0 auto;padding: 0 0 0 1%}
+.container{padding:0 20px;}
+.row{clear:both;padding:0 10px;}
+
+
+/************** GRID ****************/
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{float:left;margin:0 3% 0 0}.col1.last,.col2.last,.col3.last,.col4.last,.col5.last,.col6.last,.col7.last,.col8.last,.col9.last,.col10.last,.col11.last,.col12{margin:0}.col1{width:5.5%}.col2{width:14%}.col3{width:22.5%}.col4{width:31%}.col5{width:39.5%}.col6{width:48%}.col7{width:56.5%}.col8{width:65%}.col9{width:73.5%}.col10{width:82%}.col11{width:90.5%}.col12{width:99%;margin:0}
+
+/************** IMAGES ****************/
+.col1 img,.col2 img,.col3 img,.col4 img,.col5 img,.col6 img,.col7 img,.col8 img,.col9 img,.col10 img,.col11 img,.col12 img{width:100%;height:auto;display:block}
+img.size-full{width:inherit;height:inherit;}
+.portfolio .col4 img{width:60%;height:auto;margin-bottom:15px;}
+
+/************** TYPOGRAPHY ****************/
+h1,h2,h3,h4,h5,h6{color:#B41322;line-height:1.2;}
+   h1{font-size:18px;margin:0 15px 15px 0;}
+   h2{font-size:18px;margin:0 0 15px 0;}
+   h3{font-weight:bold;margin:0 0 15px 0;}
+   
+p{margin:0 0 15px 0;} 
+
+strong{font-weight:bold;}
+em{font-style:italic;}
+   
+/************** LINKS ****************/
+a,a:link,a:visited{text-decoration:none;color:#959595;}
+a:hover,a:active,a:focus{}
+footer a,footer a:link,footer a:visited,.hp-services-excerpt h2 a{}
+a.link-to-page{display:block;padding:20px 0 10px 0;}
+a.portfolio-email{display:block;height:25px;line-height:21px;margin:20px 0 10px 0;padding:3px 0 0 33px;background:#fff url(images/email.jpg) top left no-repeat;color:#000;}
+
+/************** LISTS ****************/
+ul, ol{margin:0 0 15px 15px;}
+li{padding:0 0 3px 0;}
+
+ul.unstyled, ol.unstyled{list-style:none;margin:0 0 15px 0;}
+
+#crp_related ul{list-style:none;margin:0;}
+   #crp_related li{margin-bottom:15px;}
+   #crp_related a.crp_title{display:block;font-weight:bold;color:#B41322;padding:0 0 6px 0;}
+
+/************** HEADER ****************/
+header{overflow:hidden;margin:0 0 20px 0;}
+   #logo img{width:266px;height:46px;}
+   
+#serachlogin{display:block;width:380px;height:22px;margin-top:35px;float:right;z-index:100;}   
+.search{width:196px; height:22px;float:right;}
+.log-in a {display:block;float:left;width:143px;color:#fff;font-size:12px;font-weight:bold;line-height:23px;padding:0 0 0 20px;background: transparent url(images/btn-login.png) top left no-repeat;}
+   
+/************** NAVIGATION - GENERAL ****************/
+.menu{list-style:none;margin:0;}
+
+/************** HEADER NAVIGATION ****************/
+header .menu{float:right; overflow:hidden;}
+   header .menu li{display:block;float:left;list-style:none;margin:0;padding:15px 0 0 0;position:relative; border-left:1px solid #CCC; text-align:left;}
+   header .menu a{padding:18px 20px 3px 8px;font-size:12px;}
+   header .menu a,header .menu a:link,header .menu a:visited{color:#000;}
+   header .menu a:hover,header .menu a:active,header .menu a:focus {color:#06C;}
+   header .current-menu-item a, header .current-post-parent a{color:#06C!important;}
+   .page-id-64 #menu-item-529 a, .page-id-71 #menu-item-529 a, .page-id-77 #menu-item-529 a, .page-id-95 #menu-item-404 a, .page-id-97 #menu-item-404 a, .category-non-executive-directors #menu-item-740 a, .category-operations-team #menu-item-740 a {color:#06C;}
+  
+/************** SIDEBAR NAVIGATION ****************/
+#sidebar-left ul{margin:0 0 15px 20px;}
+   #sidebar-left li{}
+   #sidebar-left li a{display:block;color:#414142;padding: 0 0 5px 0;}
+   #sidebar-left li a:hover, #sidebar-left li a:active, #sidebar-left li a:focus{font-weight:bold;color:#B41322;}
+   #sidebar-left li.current-menu-item a{font-weight:bold;}
+   #sidebar-left li ul{list-style:none;}
+
+   #menu-news.menu{margin-bottom:0;}
+   .widget_archives h2{padding:0!important;margin:0 0 0 20px;border:0!important;}
+   .widget_archives ul{margin-top:10px!important;}
+   .widget_archives ul li{list-style-type:none;margin:0 0 0 15px;}
+   .widget_archives li:first-child{display:none;}
+   
+   .date .widget_archives h2{color:#b41322!important;font-weight:bold!important;}
+   
+.category-operations-team #sidebar-left li ul, .category-non-executive-directors #sidebar-left li ul{display:none;} 
+.category-investment-team #sidebar-left li ul a{font-weight:normal;}
+
+/* portfolio navigation */
+#menu-portfolio .sub-menu{display:none;}
+   #menu-portfolio .current-menu-item .sub-menu, #menu-portfolio .current-post-ancestor .sub-menu{display:block;}
+   #menu-portfolio .current-menu-item .sub-menu a{font-weight:normal;}
+   
+/************** FOOTER NAVIGATION ****************/
+#menu-footnav{float:right;}
+   #menu-footnav li{float:left;}
+   #menu-footnav a{display:block;font-size:11px;padding:0 0 0 10px;}	
+
+/************** CONTENT ****************/
+#content{clear:both;overflow:hidden;}
+
+/************** POSTS - General ****************/
+.post-excerpt h2 a{font-size:14px;font-weight:bold;color:#36C;}
+   .post-excerpt .moretag, .search-excerpt .moretag, .archive .moretag{display:none;}
+   .search-excerpt a.read-more{display:block;padding:0 0 30px 0;}
+   .more-related{font-weight:bold;color:#B41322;cursor:pointer;}
+   #news h1{font-size:13px;font-weight:bold;}
+   .archive h2 a{font-size:13px;font-weight:bold;line-height:15px;color:#3366cc;}
+   .archive h2{line-height:15px;}
+   
+/************** POSTS - PORTFOLIO ****************/
+.portfolio{overflow:hidden;}
+   .portfolio a.post-thumbnail{display:block;float:left;width:140px;height:140px;margin:0 5px 5px 0;border:1px solid #eee;}
+   .portfolio h2{font-size:13px;font-weight:bold;}
+ 
+/************** POSTS - IVESTMENT TEAM ****************/
+.investment-team{overflow:hidden;}
+   .investment-team a.post-thumbnail{display:block;float:left;width:150px;height:150px;margin:0 10px 10px 0;border:1px solid #ccc;}   
+   .investment-team a.post-thumbnail img{width:130px;height:130px;padding:10px;}
+   .seroba-team h2{font-size:13px;font-weight:bold;}
+
+/************** POSTS - NON EXECUTIVE TEAM ****************/
+.nonexecutive-team{overflow:hidden;margin-bottom:20px;}
+   .nonexecutive-team h2{font-size:13px;font-weight:bold;}
+
+/************** POSTS - Pagination ****************/
+.pagination{margin:0 0 30px 0;}
+   .pagination a, .pagination a:link, .pagination a:visited{text-decoration:underline;padding:0 5px 0 0;color:#36C;}
+   .pagination a:hover, .pagination a:active, .pagination a:focus{text-decoration:none;}
+   
+/************** SIDEBAR ***************/
+#sidebar{height:374px;position:relative;}	
+#sidebar img.img-bottom{position:absolute;bottom:0;left:0;}
+#sidebar .scrollingtext ul{list-style:none;margin:0;}
+   #sidebar .scrollingtext a{font-weight:bold;color:#36C;}
+   #sidebar .scrollingtext a:after{content:'Read more';display:block;font-style:italic;text-decoration:underline;color:#959595;padding:5px 0 10px 5px;}
+   #sidebar .gridContainer div > a{font-weight:bold;font-style:italic;text-decoration:underline;display:none;}
+
+#sidebar-left h2{font-size:13px;padding:10px 0;color:#000;border-top:1px solid #E8E8E9;border-bottom:1px solid #E8E8E9;}
+
+/* scrolling news widget */
+.spe_widget{height:293px;overflow:hidden;}
+.spe_widget h2{margin:0 0 10px 0;}
+.spe_excerpt{display:none;}
+.spe_div{height:auto!important;margin-bottom:15px;}
+.spe_link a{font-weight:bold;color:#3366cc;}
+
+/* news ticker */
+.mtphr-dnt-widget{margin:0 0 18px 0;}
+ 
+/************** FOOTER ****************/
+footer{clear:both;overflow:hidden;margin:20px 0 0 0;padding:15px 0;border-top:1px solid #ABEFFE;}
+   footer p{font-size:12px;font-weight:bold;color:#b41322;}
+   
+/************** SLIDER ****************/  
+#slider{margin:0 0 20px 0;height:200px;} 
+   #new-royalslider-1, .rsOverflow, .rsSlide, .rsThumbs {background:#fff!important;}
+
+/************** CLASSES  ****************/
+.alignleft{float:left;margin-right:15px;}
+.alignright{float:right;margin-left:15px;}
+a.hidden{visibility:hidden;}
+.spacing{margin:40px 0 10px;}
+
+
+/************** RESPONSIVE COLUMNS  ****************/
+.one_half{width:48%}.one_third{width:30.66%}.two_third{width:65.33%}.one_fourth{width:22%}.three_fourth{width:74%}.one_fifth{width:16.8%}.two_fifth{width:37.6%}.three_fifth{width:58.4%}.four_fifth{width:67.2%}.one_sixth{width:13.33%}.five_sixth{width:82.67%}
+.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{ position:relative; margin-right:4%; float:left; }
+.last{ margin-right:0 !important; clear:right; }
+.clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
+.clear{clear:both;display:block;}
+
+#searchform{background:transparent url(images/bg-search.gif) center left no-repeat;}
+   #searchform input{height:20px;padding:1px 1px 1px 5px;color:#a1a1a4;border:none;background:transparent;}
+   #searchform input:focus{outline:none;}
+   #searchsubmit{float:right;text-indent:-9999px;width:30px;background:transparent url(images/btn-search.gif) center left no-repeat!important;margin-top:1px;}
+
+/************** PRINT STYLESHEET ****************/
+@media print {
+   *{color:#000!important;text-shadow:none!important; background:transparent!important;box-shadow:none!important;}
+   a,a:visited{text-decoration:underline;}
+    p a[href^="http://"]:after {content: " (" attr(href) ")";font-size: 90%;}
+   p a {word-wrap:break-word;}
+   abbr[title]:after{content: " (" attr(title) ")";}
+   pre,blockquote{page-break-inside:avoid;}
+   thead{display:table-header-group;}
+   tr,img{page-break-inside:avoid;}
+   img{max-width:100%!important;}
+   @page{margin:0.5cm;}
+   p,h2,h3{orphans:3;widows:3;}
+   h2,h3{page-break-after:avoid;}
+}
+
+/************** RESPONSIVE DESIGN  ****************/
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+   header .menu li{margin-bottom:15px;}
+   header .menu a{padding:18px 8px 3px 8px;font-size:12px;}
+   #serachlogin{margin-top:15px;}
+}
+
+@media (max-width: 650px) {
+  header .col6{float:left;width:100%;}
+  header .col6.last{float:left;width:100%!important;}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {  
+  .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12 { width: 99%; margin:0 0 10px 0; }
+}	
